@@ -24,13 +24,13 @@ void casos_de_prueba(){
     int horas;
     cout << "TEST CASES" << endl;
     // Agrega tus casos de prueba
-    cout << pago_estacionamiento(-1) <<endl;
-    cout << pago_estacionamiento(0) <<endl;
-    cout << pago_estacionamiento(1) <<endl;
-    cout << pago_estacionamiento(5) <<endl;
-    cout << pago_estacionamiento(10) <<endl;
-    cout << pago_estacionamiento(11) <<endl;
-    cout << pago_estacionamiento(12) <<endl;
+    cout << "test data: -1"<<" Expected results: 0" <<" results:"<<pago_estacionamiento(-1)<<endl;
+    cout << "test data: 0"<<" Expected results: 0" <<" results:"<< pago_estacionamiento(0) <<endl;
+    cout << "test data: 1"<<" Expected results: 10"<<" results:" << pago_estacionamiento(1) <<endl;
+    cout << "test data: 5"<<" Expected results: "<<5*10 <<" results:"<< pago_estacionamiento(5) <<endl;
+    cout << "test data: 10"<<" Expected results: " <<10*9<<" results:"<< pago_estacionamiento(10) <<endl;
+    cout << "test data: 11"<<" Expected results: 0" <<" results:"<< pago_estacionamiento(11) <<endl;
+    cout << "test data: 12"<<" Expected results: "<<12*7<<" results:" << pago_estacionamiento(12) <<endl;
 
 }
 
