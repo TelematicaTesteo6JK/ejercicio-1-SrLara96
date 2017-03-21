@@ -21,20 +21,21 @@ float pago_estacionamiento(int horas)
 }
 
 void casos_de_prueba(){
-
+    int horas;
     cout << "TEST CASES" << endl;
     // Agrega tus casos de prueba
-
-
-
-    cout << endl;
+    cout << pago_estacionamiento(-1) <<endl;
+    cout << pago_estacionamiento(0) <<endl;
+    cout << pago_estacionamiento(1) <<endl;
+    cout << pago_estacionamiento(5) <<endl;
+    cout << pago_estacionamiento(10) <<endl;
+    cout << pago_estacionamiento(11) <<endl;
+    cout << pago_estacionamiento(12) <<endl;
 
 }
 
 int main()
 {
-
     casos_de_prueba();
-
 	return 0;
 }
